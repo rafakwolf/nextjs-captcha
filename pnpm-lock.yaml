@@ -9,12 +9,14 @@ specifiers:
   next: 12.2.3
   react: 18.2.0
   react-dom: 18.2.0
+  reaptcha: ^1.12.1
   typescript: 4.7.4
 
 dependencies:
   next: 12.2.3_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  reaptcha: 1.12.1_react@18.2.0
 
 devDependencies:
   '@types/node': 18.0.6
@@ -1568,6 +1570,14 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
+
+  /reaptcha/1.12.1_react@18.2.0:
+    resolution: {integrity: sha512-zoppfGKHmo8x4PBmSrIQYQOGgVp1e8wMhr6KbwAdbQ76rSky1DcDCXLWRtBg7HGXn2hw+o+0hknafMB0rnrzZQ==}
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /regenerator-runtime/0.13.9:
